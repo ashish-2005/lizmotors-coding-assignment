@@ -122,4 +122,4 @@ dataframe = pd.DataFrame(stuctured_data)
 print(dataframe.sample(frac=1))
 
 # export structured tabular data to CSV
-dataframe.to_csv
+dataframe.to_csv('retrieved_data.csv',index=False)
